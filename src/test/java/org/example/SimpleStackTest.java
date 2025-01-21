@@ -1,6 +1,5 @@
 package org.example;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -50,7 +49,6 @@ class SimpleStackTest {
     }
 
     @Test
-    @Disabled
     @DisplayName("Test limit when trying to pop an empty stack")
     public void testPopOnEmptyStack()  {
         // Given an empty stack
